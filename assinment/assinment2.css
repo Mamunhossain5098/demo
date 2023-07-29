@@ -1,0 +1,276 @@
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+/* heading-container start  */
+#heading-container {
+    background-color: rgb(253, 237, 219);
+    height: 1080px;
+}
+.header-hyper {
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav1 a {
+    margin-left: 50px;
+    font-size: 40px;
+    color: black;
+    text-decoration: none;
+}
+.nav1 a:hover {
+    text-decoration: underline 3px blue;
+}
+.navber a {
+    margin: 20px;
+    text-decoration: none;
+    color: black;
+}
+.navber a:hover{
+text-decoration: underline 2px blue;
+}
+.heding-text {
+    text-align: center;
+    width: 850px;
+    margin: 50px auto;
+}
+.heding-text h1 {
+    font-size: 55px;
+}
+.heding-text p {
+    text-align: center;
+    width: 850px;
+}
+.heding-text button {
+    background-color: rgba(251, 102, 9, 0.858);
+    border-radius: 10px;
+    height: 50px;
+    width: 150px;
+    padding: 5px 5px;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.heding-text img {
+    margin-left: -175px;
+    width: 1200px;
+}
+/* heading-container end */
+ /* section1 start */
+ #section1 {
+     height: 1600px;
+     width: 100%;
+     background-color:white;
+ }
+ .descreption-photo {
+     float: left;
+     margin-left: 80px;
+     margin-top: 40px;
+ }
+ .descreption-photo img {
+     height: 270px;
+     width: 270px;
+     border-radius: 10px;
+     margin: 5px 5px;
+ }
+ .descreption-text {
+     font-size: 25px;
+     float: left;
+     margin-left: 40px;
+     align-items: center;
+     margin-top: 170px;
+ }
+ .descreption-text p {
+     font-size: 18px;
+     width: 550px;
+ }
+ .descreption-text button {
+     background-color: rgba(251, 102, 9, 0.858);
+     border-radius: 10px;
+     height: 50px;
+     width: 150px;
+     padding: 5px 5px;
+     font-size: 15px;
+     font-weight: 600;
+     margin-bottom: 30px;
+ }
+ /* experience data start */
+ #experience-data {
+     float: left;
+     margin-top: 200px;
+ }
+ .data-border-box {
+     margin-left: 30px;
+ }
+ .data-border-box h1 {
+     height: fit-content;
+     width: 400px;
+     font-size: 35px;
+     border-left: 5px solid chocolate;
+ }
+ .data-border-box p {
+     width: 650px;
+ }
+ #data-shadow {
+     margin-left: 30px;
+ }
+ .shadow {
+     height: 100px;
+     width: 550px;
+     border: 1px solid white;
+     transition: 0.1s;
+     box-shadow: 2.8px 2.8px 2.2px rgba(0, 0, 0, 0.008),
+         6.7px 6.7px 5.3px rgba(0, 0, 0, 0.012),
+         12.5px 12.5px 10px rgba(0, 0, 0, 0.015),
+         22.3px 22.3px 17.9px rgba(0, 0, 0, 0.018),
+         41.8px 41.8px 33.4px rgba(0, 0, 0, 0.022),
+         100px 100px 80px rgba(0, 0, 0, 0.03);
+ }
+ .shadow:hover {
+     box-shadow: 2.8px 2.8px 2.2px rgba(0, 0, 0, 0.034),
+         6.7px 6.7px 5.3px rgba(0, 0, 0, 0.048),
+         12.5px 12.5px 10px rgba(0, 0, 0, 0.06),
+         22.3px 22.3px 17.9px rgba(0, 0, 0, 0.072),
+         41.8px 41.8px 33.4px rgba(0, 0, 0, 0.086),
+         100px 100px 80px rgba(0, 0, 0, 0.12);
+     height: 110px;
+     width: 560px;
+ }
+ .shadow p {
+     margin-top: 5px;
+ }
+ #experience-data-photo {
+     float: left;
+ }
+ #experience-data-photo img {
+     width: 530px;
+     height: 800px;
+     margin-top: 60px;
+ }
+  .experience-date {
+      position: absolute;
+      height: fit-content;
+      width: fit-content;
+      background-color: chocolate;
+      padding: 50px 80px;
+      font-size: 40px;
+      font-weight: bold;
+      border-radius: 10px;
+      margin-top: 1370px;
+      margin-left: 600px;
+  }
+  .experience-date p {
+      font-size: 20px;
+  }
+ /* section1 end*/
+  /* section 2 start */
+  #section2 {
+      height: 500px;
+      width: 100%;
+      background-color: rgb(255, 255, 255);
+  }
+  .some-facts {
+      margin-left: 40px;
+  }
+  #rank {
+      display: flex;
+      margin-top: 100px;
+      justify-content: space-around;
+  }
+  #rank .rank-div {
+      border: 1px solid rgb(238, 24, 24);
+      padding: 30px 10px;
+      width: 200px;
+      text-align: center;
+  }
+  #rank .rank-div .rank-number {
+      font-size: 30px;
+  }
+  #rank .rank-div .item {
+      align-items: end;
+  }
+  /* experience data end */
+  /* section 2 end */
+   /* section 3 start */
+   #section3 {
+       height: 950px;
+   }
+   .sponsor {
+       margin: 0 auto;
+       width: 500px;
+   }
+   .sponsor h1 {
+       text-align: center;
+       font-size: 30px;
+       font-weight: bold;
+   }
+   .sponsor p {
+       text-align: center;
+       margin-top: 20px;
+   }
+   .logo-item {
+       display: flex;
+       justify-content: space-around;
+       margin-top: 50px;
+   }
+   .logo-item img {
+       height: 100px;
+       width: 100px;
+   }
+   .Contactus {
+       background-color: rgb(248, 248, 248);
+       height: 600px;
+       width: 1200px;
+       margin: 0 auto;
+       margin-top: 50px;
+       box-shadow:
+           2.8px 2.8px 2.2px rgba(0, 0, 0, 0.054),
+           6.7px 6.7px 5.3px rgba(0, 0, 0, 0.062),
+           12.5px 12.5px 10px rgba(0, 0, 0, 0.066),
+           22.3px 22.3px 17.9px rgba(0, 0, 0, 0.068),
+           41.8px 41.8px 33.4px rgba(0, 0, 0, 0.07),
+           100px 100px 80px rgba(0, 0, 0, 0.07);
+   }
+   .Contact-heading {
+       margin-top: 40px;
+       text-align: center;
+   }
+   .Contact-heading p {
+       width: 500px;
+       margin: 0 auto;
+       margin-bottom: 30px;
+   }
+   .address {
+       float: left;
+       margin-left: 30px;
+   }
+   #Form {
+       float: right;
+       margin-right: 30px;
+   }
+   #text {
+       height: 40px;
+       width: 900px;
+       margin: 5px 0px;
+       background-color: rgb(215, 215, 215);
+       border-radius: 10px;
+   }
+   #text:focus {
+       height: 45px;
+       font-size: 25px;
+   }
+   /* section 3 end */
+   /* footer start */
+   footer {
+       height: 150px;
+       width: 1200px;
+       margin: 0 auto;
+   }
+   .footer-area {
+       background-color: bisque;
+       text-align: center;
+       padding: 30px 0px;
+   }
+   /* footer end */
